@@ -1,0 +1,93 @@
+body{
+
+background-image: url('./Images/fst.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+
+}
+/* home page styles */
+.hero-section{
+    background-image: url('./Images/hm.jpg');
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    height: 100vh; /* Full viewport height */
+}
+img {
+
+   
+    border-radius: 8px;
+    margin-top: 20px;  /* Moves image 20px higher */
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: rgba(185, 140, 28, 0.897);
+}
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: rgba(185, 140, 28, 0.897);
+}
+.hero-section .btn {
+   background-color: transparent;
+   color:rgba(185, 140, 28, 0.897);
+   border-color:rgba(185, 140, 28, 0.897);  
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 5px;
+
+}
+.hero-section .btn:hover {
+    background-color: rgba(185, 140, 28, 0.897);
+    color: white;
+}
+
+/* login page styles */
+.login h1{
+  font-size: 2.5rem;
+    margin-bottom: 50px;
+
+}
+
+/*Add Event page styles */
+
+.form-border {
+    border-color : rgba(185, 140, 28, 0.897);
+}
+/*List Events page styles */
+
+.gradient-bg {
+  background: linear-gradient(to bottom right, #f3e8ff, #ffe4e6, #ffedd5);
+}
+
+
+
+
+.gradient-btn {
+  background: linear-gradient(to right, #7e22ce, #db2777);
+  transition: all 0.3s ease;
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(to right, #6b21a8, #be185d);
+  transform: scale(1.03);
+}
+
+.custom-blur {
+  background-color: transparent;
+
+  
+}
+

@@ -2,10 +2,27 @@
 
 
 {%block content%}
-<h1>Welcome to the logging</h1>
->
-<div >
-   
+<section class ="login">
+   <div class="container text-center">
+      <h1 style="margin-top: 100px;">Welcome to the login Page</h1>
+<form method="post">
+   {% csrf_token %}
+   {{ form.as_p }}
+   <button class = "btn btn-secondary" type ="submit">Login</button>
+   <span>  I dont have an account? </span> 
+   <a href="{%url 'register'%}" style ="color:rgba(185, 140, 28, 0.897)">Register</a> 
 
-</div>
+
+
+</form>
+
+      
+      </div>
+
+   </div>
+
+
+
+</section>
+
 {%endblock %}

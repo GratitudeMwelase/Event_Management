@@ -1,12 +1,24 @@
 {%extends 'base.html'%}
+{%load static%}
 
 
 {%block content%}
-<h1>Welcome to the Event Management System</h1>
-<p>Here you can manage your events, view details, and more.</p>
-<div >
-    <a href ="{% url 'register'%}" class="btn btn-primary">Register</a>
-    <a href ="{% url 'login'%}" class="btn btn-primary">Login</a>
+<section class="hero-section">
+    <div class="container text-center py-5">
+        
+
+       <div class="hero-content">
+         <h1>Welcome to the Event Management System</h1>
+<p><em>Here you can manage your events, view details, and more.</em></p>
+
+<div class="container d-grid gap-2 col-2 mx-auto">
+    
+    <a href ="{% url 'register'%}" class="btn btn-secondary">Register</a>
+    <a href ="{% url 'login'%}" class="btn btn-secondary">Login</a>
 
 </div>
+       </div>
+
+    </div>
+</section>
 {%endblock %}
